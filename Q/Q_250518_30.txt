@@ -1,0 +1,71 @@
+C++에서 constexpr 키워드와 #define 매크로의 차이점 및 각각의 장단점을 설명하시오.
+
+람다 함수(Lambda Function)란 무엇이며, 어떤 경우에 유용하게 사용될 수 있는지 설명하고 간단한 문법을 제시하시오.
+
+C++에서 복사 생성자(Copy Constructor), 복사 대입 연산자(Copy Assignment Operator), 이동 생성자(Move Constructor), 이동 대입 연산자(Move Assignment Operator)의 역할과 Rule of Three/Five/Zero에 대해 설명하시오.
+
+std::shared_ptr과 std::weak_ptr의 차이점을 설명하고, std::weak_ptr이 필요한 상황(예: 순환 참조 방지)을 설명하시오.
+
+C++의 타입 캐스팅 연산자(static_cast, dynamic_cast, reinterpret_cast, const_cast) 중 static_cast와 dynamic_cast의 차이점을 설명하시오.
+
+기반 클래스 포인터를 통해 파생 클래스 객체를 삭제할 때 가상 소멸자(Virtual Destructor)가 필요한 이유를 설명하시오.
+
+C++에서 override와 final 키워드의 사용 목적을 설명하시오.
+
+explicit 키워드가 생성자에 사용될 때 어떤 역할을 하는지 설명하시오.
+
+C++에서 lvalue와 rvalue의 개념을 간단히 설명하시오. 이동 의미론과 어떤 관련이 있나요?
+
+STL 알고리즘(예: std::sort, std::find, std::for_each) 중 하나를 예로 들어, 해당 알고리즘의 목적과 사용법, 그리고 대략적인 시간 복잡도를 설명하시오.
+
+(Optional) C++ 표준 라이브러리의 <algorithm> 헤더에 포함된 유용한 함수들을 3가지 이상 예시로 들고 각 함수의 역할을 설명하시오.
+
+(Optional) C++에서 네임스페이스(Namespace)를 사용하는 주된 목적은 무엇인가요?
+
+
+
+큐(Queue)와 스택(Stack) 자료구조의 차이점을 설명하고, 각각 어떤 상황에 적용될 수 있는지 간단한 예시를 드시오. (LIFO/FIFO 언급)
+
+힙(Heap) 자료구조(최대 힙 또는 최소 힙)의 개념과 우선순위 큐(Priority Queue) 구현에 어떻게 사용될 수 있는지 설명하시오.
+
+검색 알고리즘 중 이진 탐색(Binary Search)이 가능한 전제 조건과 시간 복잡도를 설명하고, 순차 탐색(Linear Search)과 비교하시오.
+
+대표적인 정렬 알고리즘(예: 퀵 정렬, 병합 정렬)의 평균 시간 복잡도 O(N log N)과 버블 정렬/선택 정렬의 평균 시간 복잡도 O(N^2)의 차이를 설명하시오.
+
+경로 탐색 알고리즘 중 A*(A-Star) 알고리즘의 기본적인 아이디어(휴리스틱 사용)를 설명하시오.
+
+그래픽스에서 Z-버퍼링(Z-Buffering)이 필요한 이유와 역할에 대해 설명하시오.
+
+쉐이더(Shader)의 종류(예: Vertex Shader, Pixel/Fragment Shader)와 각각의 기본적인 역할을 설명하시오.
+
+네트워크 게임에서 지연(Latency)과 지터(Jitter)가 게임 플레이에 미치는 영향에 대해 설명하시오.
+
+네트워크 통신 시 데이터 직렬화(Serialization)와 역직렬화(Deserialization) 과정이 왜 필요한지 설명하시오.
+
+클라이언트-서버 모델에서 게임 상태 동기화 시 발생할 수 있는 문제점(예: 클라이언트 예측, 보간)과 이를 해결하기 위한 접근 방식에 대해 간략히 설명하시오.
+
+
+
+언리얼 엔진의 멀티플레이어 환경에서 GameMode, GameState, PlayerController, PlayerState는 각각 어떤 역할을 담당하나요?
+
+UMG(Unreal Motion Graphics)의 기본적인 사용 목적과 UI 구현 시 C++ 코드와 어떻게 연동하는지 설명하시오.
+
+애니메이션 시스템에서 스켈레탈 메시(Skeletal Mesh)와 애니메이션 블루프린트(Animation Blueprint)의 기본적인 역할을 설명하시오.
+
+언리얼 엔진의 피직스(Physics) 엔진에서 콜리전(Collision) 설정 시 사용되는 다양한 충돌 타입(예: Block, Overlap, Ignore) 및 채널(Channel) 개념에 대해 설명하시오.
+
+언리얼 엔진 빌드 과정에서 UBT(Unreal Build Tool)와 UHT(Unreal Header Tool)는 각각 어떤 역할을 담당하나요?
+
+언리얼 엔진에서 비동기 로딩(Asynchronous Loading)이 필요한 이유와 AssetManager를 활용한 에셋 로딩 방식에 대해 간략히 설명하시오.
+
+언리얼 엔진에서 성능 프로파일링 시 CPU 바틀넥과 GPU 바틀넥을 구분하고 진단하는 기본적인 방법에 대해 설명하시오.
+
+언리얼 엔진의 플러그인(Plugin)과 모듈(Module) 시스템의 차이점 및 활용 목적에 대해 설명하시오.
+
+레벨 스트리밍(Level Streaming) 기능이 필요한 이유와 사용 시 장점에 대해 설명하시오.
+
+언리얼 엔진 C++ 코드 작성 시 일반적으로 고려할 수 있는 성능 최적화 팁(예: Tick 함수 최적화, 반복문 최적화, 객체 생성 최소화 등)을 3가지 이상 제시하시오.
+
+(Optional) 특정 타입의 액터를 월드에서 찾는 방법(UGameplayStatics::GetAllActorsOfClass, GetWorld()->GetIterator)과 차이점에 대해 설명하시오.
+
+(Optional) 언리얼 엔진 로깅 시스템(UE_LOG)의 사용법과 로그 카테고리, 중요도 레벨에 대해 설명하시오.
