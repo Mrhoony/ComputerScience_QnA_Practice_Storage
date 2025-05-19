@@ -1,0 +1,59 @@
+C++에서 enum과 enum class의 차이점을 설명하고, enum class 사용 시 장점에 대해 설명하시오.
+
+C++ 변수의 스토리지 기간(Storage Duration: automatic, static, dynamic, thread_local)에 대해 설명하고, 각각 어떤 키워드로 선언되며 메모리 생명주기는 어떻게 되는지 설명하시오.
+
+C++ 컴파일러 최적화 중 하나인 복사 생략(Copy Elision)에 대해 설명하고, 어떤 경우에 발생할 수 있는지 간단한 예시를 드시오.
+
+C++에서 volatile 키워드는 언제, 왜 사용하며 어떤 의미를 가지는지 설명하시오.
+
+C++17에 도입된 구조적 바인딩(Structured Bindings)이란 무엇이며, 어떤 경우에 코드를 간결하게 만들 수 있는지 간단한 예시를 드시오.
+
+C++에서 객체 초기화 방법(예: Direct Initialization, Copy Initialization, List Initialization)들을 제시하고, 각각의 특징이나 차이점을 설명하시오.
+
+함수 내부에서 선언된 static 변수와 전역 변수의 차이점을 스코프(Scope)와 생명주기(Lifetime) 관점에서 설명하시오.
+
+멀티스레딩 환경에서 공유 자원에 대한 안전한 접근을 보장하기 위해 std::mutex와 std::lock_guard를 어떻게 함께 사용하는지 간단한 코드로 설명하시오.
+
+C++11에 도입된 완벽한 전달(Perfect Forwarding)의 개념과 std::forward의 역할에 대해 간략히 설명하시오.
+
+C++ 함수 선언/정의 시 사용되는 noexcept 키워드는 무엇이며, 어떤 의미를 가지나요?
+
+기본적인 정렬 알고리즘(예: 버블 정렬, 퀵 정렬, 병합 정렬)의 동작 방식(개념)을 간략히 설명하고, 각각의 평균 시간 복잡도를 제시하시오.
+
+해시 테이블에서 충돌 해결 방법 중 개방 주소법(Open Addressing) 방식(예: 선형 조사법, 제곱 조사법)의 기본적인 아이디어를 설명하시오. (앞선 체이닝과 구분)
+
+TCP/IP 4계층 모델(또는 OSI 7계층 모델)에서 애플리케이션 계층, 전송 계층, 인터넷 계층, 네트워크 인터페이스 계층의 역할을 간략히 설명하시오. (게임 클라이언트와 관련된 계층 위주)
+
+CPU 캐시 메모리(Cache Memory)에서 캐시 라인(Cache Line)의 개념과 데이터 지역성(Locality of Reference)이 성능에 미치는 영향에 대해 설명하시오.
+
+메모리 단편화(Memory Fragmentation)의 두 가지 유형(내부 단편화, 외부 단편화)을 설명하시오.
+
+운영체제의 프로세스 스케줄링 방식 중 선점형(Preemptive) 스케줄링과 비선점형(Non-preemptive) 스케줄링의 차이점을 설명하시오.
+
+데이터 압축(Data Compression)이 필요한 주된 이유(게임 리소스, 네트워크 통신 등)와 기본적인 압축 기법(손실/비손실)의 개념을 설명하시오.
+
+그래프(Graph) 자료구조에서 너비 우선 탐색(BFS)과 깊이 우선 탐색(DFS)의 탐색 순서 차이점을 설명하고, 각각 어떤 문제 해결에 적합한지 간단한 예시를 드시오.
+
+엔디언(Endianness: Little-endian vs Big-endian)이란 무엇이며, 네트워크 통신이나 파일 입출력 시 왜 이를 고려해야 하는지 설명하시오.
+
+컴파일러(Compiler)와 인터프리터(Interpreter)의 차이점을 설명하시오.
+
+언리얼 엔진 애니메이션 시스템에서 애니메이션 몽타주(Animation Montage)는 무엇이며, 어떤 경우(예: 스킬 사용, 피격 애니메이션)에 사용되는지 설명하시오.
+
+언리얼 엔진 AI 시스템에서 감각 시스템(Perception System, 예: 시각, 청각 감지)은 어떻게 작동하며, AI 캐릭터가 플레이어나 다른 오브젝트를 인식하도록 구현하는 기본적인 아이디어를 설명하시오.
+
+언리얼 엔진 AI 시스템에서 내비게이션 메시(Navigation Mesh, Nav Mesh)는 무엇이며, AI 캐릭터의 경로 탐색(Pathfinding)에 어떻게 사용되는지 설명하시오.
+
+언리얼 엔진의 파티클 시스템(FX) 중 Cascade와 Niagara의 차이점 및 Niagara의 장점에 대해 간략히 설명하시오.
+
+언리얼 엔진에서 Gameplay Tag는 무엇이며, 어떤 목적으로 사용될 수 있는지 실무적인 예시(예: 상태 표현, 시스템 필터링)를 들어 설명하시오.
+
+언리얼 엔진의 데이터 테이블(Data Table)은 무엇이며, 주로 어떤 종류의 데이터(예: 스탯 정보, 아이템 정보)를 관리하는 데 사용되는지 설명하시오.
+
+언리얼 엔진에서 게임 상태나 플레이어 데이터를 저장하고 불러오는 SaveGame 시스템의 기본적인 사용법과 목적을 설명하시오.
+
+언리얼 엔진 C++에서 UPROPERTY 매크로에 사용되는 주요 지정자(Specifier, 예: EditAnywhere, VisibleAnywhere, BlueprintReadWrite, Transient)들의 의미와 역할을 설명하시오.
+
+언리얼 엔진에서 C++ 클래스를 블루프린트로 확장하거나 블루프린트에서 C++ 함수를 호출할 때, BlueprintNativeEvent와 BlueprintImplementableEvent의 차이점을 설명하시오.
+
+언리얼 엔진 에디터 유틸리티 위젯(Editor Utility Widget)은 무엇이며, 개발 워크플로우 개선에 어떻게 활용될 수 있는지 간단한 예시를 드시오.
