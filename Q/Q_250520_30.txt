@@ -1,0 +1,63 @@
+C++ 디자인 패턴 중 싱글톤(Singleton) 패턴과 옵저버(Observer) 패턴의 개념을 설명하고, 게임 개발에서 각각 어떤 경우에 사용될 수 있는지 간단한 예시를 드시오.
+
+C++에서 예외 안전성(Exception Safety)의 세 가지 보장 수준(No-throw guarantee, Strong guarantee, Basic guarantee)에 대해 설명하시오.
+
+reinterpret_cast는 언제 사용하며, 다른 캐스팅 연산자(static_cast, dynamic_cast)와 비교했을 때 어떤 위험성이 있는지 설명하시오.
+
+C++에서 프리프로세서(Preprocessor) 지시자(예: #ifdef, #pragma once)의 사용 목적과 주의할 점을 설명하시오.
+
+C++에서 mutable 키워드는 언제, 왜 사용하며 어떤 의미를 가지는지 설명하시오.
+
+friend 키워드는 무엇이며, 캡슐화 원칙과 관련하여 어떤 장단점을 가지는지 설명하시오.
+
+extern "C"는 무엇이며, C++ 코드에서 C 언어 라이브러리나 다른 언어의 라이브러리와 연동할 때 왜 필요한지 설명하시오.
+
+C++에서 함수 오버로딩(Function Overloading)과 함수 오버라이딩(Function Overriding)의 차이점을 설명하시오.
+
+C++11에 도입된 위임 생성자(Delegating Constructors)란 무엇이며, 어떤 장점이 있는지 설명하시오.
+
+final 키워드는 클래스 또는 멤버 함수에 사용될 때 어떤 의미를 가지며, 어떤 경우에 유용하게 사용될 수 있는지 설명하시오.
+
+
+
+3D 그래픽스에서 알파 블렌딩(Alpha Blending)의 개념과 반투명(Transparency) 오브젝트 렌더링 시 고려해야 할 사항을 설명하시오.
+
+LOD(Level of Detail) 기법은 그래픽스 성능 최적화에 어떻게 기여하는지 설명하고, 지오메트리(Geometry) LOD와 텍스처(Texture) LOD에 대해 간략히 설명하시오.
+
+네트워크 통신 시 패킷 손실(Packet Loss)과 패킷 재정렬(Packet Reordering)이 게임 플레이에 미치는 영향과 이를 완화하기 위한 일반적인 접근 방식에 대해 설명하시오.
+
+온라인 게임에서 기본적인 형태의 부정행위(Cheating)를 방지하기 위한 클라이언트 또는 서버 측의 일반적인 방어 전략(예: 서버 검증, 데이터 암호화)에 대해 설명하시오.
+
+운영체제에서 인터럽트(Interrupt)와 시스템 콜(System Call)의 개념을 설명하고, 운영체제가 이들을 통해 하드웨어 및 소프트웨어 자원을 관리하는 방법을 간략히 설명하시오.
+
+알고리즘 설계 패러다임 중 분할 정복(Divide and Conquer)과 동적 계획법(Dynamic Programming)의 기본적인 아이디어를 설명하고, 각각 어떤 문제 해결에 적합한지 예시를 드시오.
+
+그래프 알고리즘 중 최소 신장 트리(Minimum Spanning Tree)의 개념과 대표적인 알고리즘(예: Prim, Kruskal)의 목적을 설명하시오.
+
+캐시 메모리의 작동 원리 중 한 종류인 쓰기 정책(Write Policy: Write-through, Write-back)에 대해 간략히 설명하시오.
+
+병렬 컴퓨팅에서 동시성(Concurrency)과 병렬성(Parallelism)의 차이점을 설명하시오.
+
+가상 메모리 시스템에서 페이징(Paging)과 스와핑(Swapping)의 개념을 설명하시오.
+
+
+
+언리얼 엔진에서 에셋 레퍼런스(Asset Reference) 중 하드 레퍼런스(Hard Reference)와 소프트 레퍼런스(Soft Reference)의 차이점을 설명하고, 각각 언제 사용하는 것이 적합한지 설명하시오.
+
+언리얼 엔진의 GameInstance 클래스는 어떤 역할을 하며, 어떤 종류의 데이터나 로직을 관리하는 데 사용되는지 설명하시오.
+
+언리얼 엔진의 Enhanced Input System에서 입력 컨텍스트(Input Context)의 개념과 사용 목적을 설명하시오.
+
+언리얼 엔진 네트워크에서 액터의 Net Relevancy(네트워크 관련성)는 무엇이며, 어떻게 설정되며, 클라이언트 성능에 어떤 영향을 미치는지 설명하시오.
+
+언리얼 엔진 애니메이션 시스템에서 블렌드 스페이스(Blend Space)는 무엇이며, 어떤 애니메이션 블렌딩 상황에 사용되는지 설명하시오.
+
+언리얼 엔진 애니메이션 시스템에서 IK(Inverse Kinematics, 역운동학)는 무엇이며, 어떤 경우에 유용하게 사용되는지 설명하시오.
+
+언리얼 엔진 AI 시스템에서 블랙보드(Blackboard)는 무엇이며, 행동 트리(Behavior Tree)와 함께 AI의 상태 및 데이터 관리에 어떻게 사용되는지 설명하시오.
+
+언리얼 엔진의 머티리얼(Material) 시스템에서 주요 노드 유형(예: Scalar Parameter, Vector Parameter, Texture Sample)과 각각의 역할을 설명하시오.
+
+언리얼 엔진에서 포스트 프로세스 볼륨(Post Process Volume)은 무엇이며, 게임 화면에 어떤 시각적 효과를 적용하는 데 사용되는지 설명하시오.
+
+언리얼 엔진에서 Destructible Mesh(파괴 가능한 메시)는 무엇이며, 환경 상호작용이나 게임 플레이에 어떤 식으로 활용될 수 있는지 설명하시오.
