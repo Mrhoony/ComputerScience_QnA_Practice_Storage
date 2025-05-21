@@ -1,0 +1,63 @@
+C++11에 도입된 static_assert는 무엇이며, 컴파일 타임에 어떤 종류의 오류를 검사하는 데 사용되는지 설명하시오.
+
+C++에서 커스텀 할당자(Custom Allocator)를 사용하는 주된 목적은 무엇이며, 어떤 경우에 고려할 수 있는지 설명하시오.
+
+람다 표현식에서 [this] 캡처와 [*this] 캡처의 차이점을 설명하시오.
+
+C++17의 구조적 바인딩(Structured Bindings)이 std::tuple이나 std::pair와 함께 사용될 때 코드를 어떻게 간결하게 만드는지 간단한 예시를 드시오.
+
+C++11에 도입된 사용자 정의 리터럴(User-defined Literals)은 무엇이며, 어떤 용도로 사용될 수 있는지 간단한 예시를 드시오.
+
+Windows 환경에서 DLL(Dynamic Link Library)을 사용하여 C++ 코드를 모듈화할 때, __declspec(dllexport)와 __declspec(dllimport)의 역할을 설명하시오.
+
+C++11에 도입된 =default 및 =delete 함수 선언의 의미와 사용 목적을 설명하시오.
+
+C++의 union 자료구조는 무엇이며, 어떤 경우에 유용하게 사용될 수 있는지 설명하시오.
+
+C++에서 포인터 연산(Pointer Arithmetic)이 가능한 타입과 불가능한 타입을 설명하고, 그 이유를 설명하시오.
+
+가상 함수(Virtual Function) 호출 시 내부적으로 가상 함수 테이블(V-Table)이 어떻게 작동하는지 간략히 설명하시오.
+
+
+
+3D 그래픽스에서 깊이 테스트(Depth Testing)가 필요한 이유와 Z-fighting 현상에 대해 설명하시오.
+
+3D 그래픽스에서 컬링(Culling) 기법 중 후면 컬링(Backface Culling)의 원리와 목적을 설명하시오.
+
+텍스처 매핑(Texture Mapping)에서 텍스처 필터링(예: Bilinear, Trilinear)과 텍스처 래핑(Wrapping) 모드(예: Clamp, Repeat)의 목적을 설명하시오.
+
+네트워크 환경에서 로드 밸런싱(Load Balancing)의 개념과 게임 서버에 적용될 수 있는 기본적인 아이디어를 설명하시오.
+
+TCP(Transmission Control Protocol)의 혼잡 제어(Congestion Control) 메커니즘이 필요한 이유와 기본적인 작동 원리를 설명하시오.
+
+운영체제에서 뮤텍스(Mutex)와 세마포어(Semaphore)의 차이점을 설명하고, 각각 어떤 상황에 주로 사용되는지 설명하시오.
+
+프로세스 간 통신(IPC: Inter-Process Communication) 방법 중 공유 메모리(Shared Memory)와 파이프(Pipe)의 차이점을 설명하시오.
+
+게임의 물리 시뮬레이션에서 충돌 감지(Collision Detection)에 사용되는 기본 기법(예: AABB, Sphere)의 개념을 설명하시오.
+
+공간 데이터 구조 중 K-d 트리(K-d Tree)의 기본적인 구성 원리와 어떤 종류의 공간 쿼리(Query)에 적합한지 설명하시오.
+
+블룸 필터(Bloom Filter)의 개념과 어떤 종류의 '빠른 존재 확인' 문제에 활용될 수 있는지 설명하시오. (단, 오탐(false positive) 가능성 언급)
+
+
+
+언리얼 엔진에서 렌더 타겟(Render Target)은 무엇이며, 어떤 목적으로 사용되는지 (예: 미니맵, 반사, 동적 텍스처 생성) 설명하시오.
+
+언리얼 엔진의 포스트 프로세스 머티리얼(Post Process Material)은 무엇이며, 화면에 어떤 시각적 효과를 적용하는 데 사용되는지 설명하시오.
+
+언리얼 엔진 네트워크 프로그래밍에서 서버 트래블(Server Travel)은 무엇이며, 멀티플레이어 게임에서 레벨 전환 시 어떻게 작동하는지 설명하시오.
+
+언리얼 엔진의 네트워크 디버깅을 위해 사용할 수 있는 콘솔 명령(예: Net 관련 명령)이나 프로파일러 도구(예: Session Frontend의 Network Profiler)에 대해 아는 대로 설명하시오.
+
+언리얼 엔진 AI 시스템에서 행동 트리(Behavior Tree)의 데코레이터(Decorator)와 서비스(Service)의 역할을 설명하고, 각각 어떤 상황에 사용되는지 예시를 드시오.
+
+언리얼 엔진에서 TArray를 사용할 때 ShrinkToFit() 함수와 Reserve() 함수의 목적과 사용 시점을 설명하시오.
+
+언리얼 엔진에서 에셋 리디렉터(Asset Redirector)는 무엇이며, 어떤 경우에 생성되고 어떻게 관리해야 하는지 설명하시오.
+
+언리얼 엔진의 Slate UI 시스템은 무엇이며, UMG(Unreal Motion Graphics)와 비교했을 때 어떤 특징(주로 C++ 기반)을 가지는지 설명하시오.
+
+언리얼 엔진 개발 과정에서 소스 컨트롤(예: Perforce, Git)을 에디터 내에서 연동하여 사용하는 기본적인 방법과 장점을 설명하시오.
+
+언리얼 엔진의 애셋 쿡(Cook) 과정은 무엇이며, 패키징된 게임에서 애셋이 어떻게 로드되는지 간략히 설명하시오.
