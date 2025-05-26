@@ -1,0 +1,23 @@
+RAII(Resource Acquisition Is Initialization) 패턴이 std::unique_lock 또는 std::scoped_lock과 같은 뮤텍스 가드(Mutex Guard)에 어떻게 적용되며, 이를 통해 어떤 종류의 자원 관리 문제가 해결되는지 설명하시오.
+
+C++11에 도입된 std::move와 std::forward의 차이점을 설명하고, 각각 어떤 용도(예: rvalue 레퍼런스 강제 캐스팅, 완벽한 전달)로 사용되는지 설명하시오.
+
+C++에서 explicit 키워드가 단일 인자 생성자 외에 변환 연산자(Conversion Operator)에도 사용될 때 어떤 의미를 가지며, 어떤 종류의 암시적 변환을 방지하는지 설명하시오.
+
+
+
+3D 그래픽스에서 노멀 맵(Normal Map)이 필요한 이유와 렌더링 시 어떤 방식으로 표면의 디테일을 표현하는지 설명하시오.
+
+멀티코어 환경에서 동시성 제어(Concurrency Control)를 위해 사용되는 스핀락(Spinlock)과 뮤텍스(Mutex)의 차이점을 설명하고, 각각 어떤 상황에 더 적합하며 성능상 어떤 특성을 가지는지 설명하시오.
+
+데이터베이스나 파일 시스템에서 B-트리(B-Tree) 또는 B+트리(B+Tree) 자료구조가 주로 사용되는 이유와 디스크 I/O 효율성 측면에서의 장점을 설명하시오.
+
+
+
+언리얼 엔진의 UMG(Unreal Motion Graphics)에서 다양한 화면 해상도나 DPI(Dots Per Inch)에 대응하여 UI 요소들이 올바르게 스케일링되고 배치되도록 하는 방법을 설명하시오.
+
+언리얼 엔진 애니메이션 블루프린트(Animation Blueprint)의 이벤트 그래프와 애니메이션 스테이트 머신(Animation State Machine)이 서로 어떻게 상호작용하며, 실행 순서(Lifecycle)는 어떻게 되는지 간략히 설명하시오.
+
+언리얼 엔진 네트워크 환경에서 클라이언트가 특정 액션(예: 상호작용 가능한 오브젝트 활성화)을 수행할 때, 서버-클라이언트 간의 권한(Authority) 처리를 어떻게 구현해야 하는지 구체적인 예시를 들어 설명하시오.
+
+언리얼 엔진 에디터 유틸리티 블루프린트(Editor Utility Blueprint)를 사용하여 개발 워크플로우에서 반복적이거나 복잡한 작업을 자동화할 수 있는 구체적인 예시 2가지를 제시하시오.
