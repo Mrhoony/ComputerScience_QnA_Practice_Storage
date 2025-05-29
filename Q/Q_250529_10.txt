@@ -1,0 +1,23 @@
+C++17에서 보장된 복사 생략(Guaranteed Copy Elision), 특히 NRVO(Named Return Value Optimization)는 무엇이며, 코드를 어떻게 최적화하는지 설명하시오.
+
+std::vector에서 emplace_back()과 push_back()의 차이점을 설명하고, 성능 측면에서 어떤 상황에 emplace_back()이 더 유리한지 설명하시오.
+
+C++의 std::atomic 사용 시 std::memory_order_relaxed는 어떤 의미를 가지며, 언제(예: 의존성 없는 원자적 연산) 사용될 수 있는지 설명하시오.
+
+
+
+3D 그래픽스에서 알파 정렬(Alpha Sorting) 문제가 발생하는 주된 이유(예: 투명 오브젝트 렌더링 순서)와 이를 해결하기 위한 일반적인 방법(예: 투명 오브젝트 후면 렌더링)에 대해 설명하시오.
+
+네트워크 게임에서 패킷 우선순위(Packet Prioritization)를 부여하는 것이 왜 중요하며, 어떤 종류의 데이터(예: 캐릭터 이동, 스킬 사용, 채팅 메시지)에 높은 우선순위를 부여할 수 있는지 설명하시오.
+
+컴퓨터 성능 분석 시 "캐시 미스(Cache Miss)"의 주요 유형(예: Compulsory Miss, Capacity Miss, Conflict Miss)을 설명하고, 각각이 발생하는 원인을 간략히 설명하시오.
+
+
+
+언리얼 엔진 5(UE5)에 도입된 Nanite(나나이트)와 Lumen(루멘)의 기본적인 개념과 각각이 렌더링 파이프라인(특히 지오메트리 처리 및 전역 조명)에서 어떤 혁신을 가져왔는지 간략히 설명하시오.
+
+언리얼 엔진 UMG(Unreal Motion Graphics)에서 C++ 커스텀 위젯을 생성할 때, NativeConstruct()와 NativeTick() 함수는 각각 위젯의 어떤 생명주기 단계에 호출되며 어떤 용도로 사용되는지 설명하시오.
+
+언리얼 엔진 애니메이션 블루프린트(Animation Blueprint)의 AnimGraph에서 "블렌드 노드(Blend Node, 예: Blend Poses by Bool, Blend Poses by Enum)"는 무엇이며, 여러 애니메이션을 자연스럽게 전환하는 데 어떻게 사용되는지 설명하시오.
+
+언리얼 엔진 네트워크에서 클라이언트 또는 서버의 네트워크 대역폭 사용량을 제어하기 위한 "네트워크 스로틀링(Network Throttling)" 기법은 무엇이며, 어떻게 구현될 수 있는지 설명하시오.
