@@ -1,0 +1,23 @@
+C++에서 std::shared_ptr를 사용할 때 순환 참조(Circular Reference) 문제가 발생하는 원인과 std::weak_ptr를 사용하여 이를 어떻게 해결하는지 설명하시오.
+
+RAII(Resource Acquisition Is Initialization) 원칙은 무엇이며, C++에서 자원(메모리, 파일 핸들, 뮤텍스 등)을 안전하고 효율적으로 관리하는 데 어떻게 적용되는지 설명하시오.
+
+C++20에 도입된 [[no_unique_address]] 속성(attribute)은 무엇이며, 빈(empty) 클래스 타입의 멤버 변수가 메모리 레이아웃에 미치는 영향을 최적화하여 메모리 공간을 절약하는 데 어떻게 기여하는지 설명하시오.
+
+
+
+3D 그래픽스 렌더링 파이프라인에서 "지연 렌더링(Deferred Rendering)"과 "전방 렌더링(Forward Rendering)" 방식의 주요 차이점과 각각의 장단점(예: 광원 처리 효율성, 투명도 처리)을 비교하시오.
+
+네트워크 게임에서 "네트워크 메시지 압축(Network Message Compression)"이 왜 중요하며, 어떤 기본적인 압축 알고리즘(예: Run-Length Encoding, Huffman Coding)이 게임에서 활용될 수 있는지 설명하시오.
+
+그래프 탐색 알고리즘인 다익스트라(Dijkstra)와 A*(A-star) 알고리즘의 주요 차이점은 무엇이며, A*가 휴리스틱(Heuristic)을 사용하여 다익스트라보다 특정 상황(예: 길 찾기)에서 더 효율적인 이유를 설명하시오.
+
+
+
+언리얼 엔진 5(UE5)의 주요 렌더링 기술인 Lumen과 Nanite는 각각 어떤 기능을 제공하며, 어떤 종류의 씬(Scene) 구성(예: 동적 전역 조명, 고도로 상세한 지오메트리)에서 특히 강력한 이점을 가지는지 설명하시오.
+
+언리얼 엔진에서 UPROPERTY, UFUNCTION, UCLASS 등에 사용되는 메타 데이터 지정자(Metadata Specifiers, 예: BlueprintCallable, BlueprintType, Config)는 어떤 역할을 하며, 엔진 리플렉션 시스템에서 어떻게 활용되어 에디터나 블루프린트에서 기능을 노출하는지 설명하시오.
+
+언리얼 엔진의 Gameplay Ability System(GAS)에서 FGameplayEffectSpec은 무엇이며, 어빌리티가 적용될 때 실제로 발생할 효과(예: 스탯 변경, 태그 부여, 버프/디버프)를 어떻게 정의하고 전달하는지 설명하시오.
+
+언리얼 엔진 네트워크 복제에서 액터의 NetUpdateFrequency는 무엇이며, 이 값이 네트워크 대역폭 사용량과 CPU 오버헤드에 미치는 영향 및 AlwaysRelevant 설정과의 관계를 설명하시오.
