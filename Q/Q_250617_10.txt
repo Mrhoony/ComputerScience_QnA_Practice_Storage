@@ -1,0 +1,19 @@
+핵심 클래스 계층 및 역할: 언리얼 엔진의 Gameplay Framework를 구성하는 핵심 클래스들(예: UObject, AActor, UActorComponent, APawn, ACharacter, AController, AGameModeBase, AGameStateBase 등) 간의 상속 계층과 각각의 주요 역할에 대해 설명하시오.
+
+AActor와 UActorComponent: AActor와 UActorComponent의 주된 차이점은 무엇이며, 언리얼 엔진이 컴포넌트 기반 아키텍처를 채택함으로써 게임 객체 구성 및 재사용성 측면에서 얻는 이점은 무엇인지 설명하시오.
+
+AGameModeBase와 AGameStateBase: AGameModeBase와 AGameStateBase는 각각 게임의 어떤 정보를 담당하며, 이 두 클래스가 멀티플레이어 환경에서 게임 규칙 및 게임 전반의 상태를 어떻게 관리하고 클라이언트와 서버 간에 어떻게 동기화되는지 설명하시오.
+
+AController 계층: AController는 무엇이며, APlayerController와 AAIController로 나뉘는 주된 이유와 각각의 역할을 설명하시오. 또한, AController가 APawn (또는 ACharacter)을 소유(Possess)하고 제어하는 메커니즘을 설명하시오.
+
+APawn과 ACharacter: APawn과 ACharacter의 차이점을 설명하고, ACharacter가 APawn을 상속받으면서 추가적으로 제공하는 주요 기능(예: CharacterMovementComponent, CapsuleComponent)은 무엇인지, 그리고 어떤 상황에 APawn 대신 ACharacter를 사용하는 것이 적합한지 설명하시오.
+
+AActor의 수명 주기: 언리얼 엔진 Gameplay Framework에서 AActor의 주요 수명 주기 함수들(예: BeginPlay(), Tick(), EndPlay(), OnDestroyed())과 그 호출 순서에 대해 설명하시오. 각 함수에서 주로 어떤 로직을 처리해야 하는지 예시를 드시오.
+
+입력 처리 흐름: 언리얼 엔진에서 사용자 입력(Input)이 발생했을 때, APlayerController, APawn(또는 ACharacter), UActorComponent 등 어떤 클래스들을 거쳐 입력 이벤트가 처리되는지 그 기본적인 흐름과 우선순위를 설명하시오.
+
+APlayerState의 역할: APlayerState는 무엇이며, 멀티플레이어 게임에서 특정 플레이어와 관련된 고유 데이터(예: 점수, 이름, 체력, 인벤토리 상태 등)를 어떻게 관리하고 서버에서 클라이언트들에게 효율적으로 복제하는 데 사용되는지 설명하시오.
+
+게임플레이 프레임워크의 확장성 및 유연성: 언리얼 엔진의 Gameplay Framework가 게임 개발자에게 제공하는 확장성과 유연성(예: GameMode 교체, Controller 타입 변경, 커스텀 컴포넌트 추가)은 어떤 상황에서 유용하게 활용될 수 있는지 구체적인 예시와 함께 설명하시오.
+
+UWorld의 역할: UWorld는 언리얼 엔진 Gameplay Framework에서 어떤 핵심적인 역할을 하며, AActor들이 존재하는 공간으로서 어떻게 관리되고 게임의 전반적인 상태(예: 레벨 전환, 시간 관리, 게임 객체 등록/삭제)를 제어하는지 설명하시오.
