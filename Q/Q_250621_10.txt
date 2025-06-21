@@ -1,0 +1,19 @@
+RPC(Remote Procedure Call)와 Property Replication의 기본 개념: 언리얼 엔진에서 RPC와 Property Replication은 각각 무엇이며, 멀티플레이어 게임에서 클라이언트와 서버 간에 어떤 종류의 데이터(행동 vs 상태)를 동기화하기 위해 사용되는지 설명하시오.
+
+RPC의 종류와 호출 컨텍스트: UFUNCTION(Server), UFUNCTION(Client), UFUNCTION(NetMulticast) 매크로로 선언된 RPC의 동작 방식과 각각의 호출 주체(어디서 호출하는지) 및 실행 컨텍스트(어디서 실행되는지)를 명확히 구분하여 설명하시오.
+
+Property Replication 메커니즘: UPROPERTY(Replicated)로 선언된 프로퍼티가 서버에서 클라이언트로 동기화되는 기본적인 메커니즘을 설명하시오. DOREPLIFETIME 매크로의 역할은 무엇인가요?
+
+네트워크 신뢰성(Reliability): RPC 및 Property Replication에서 사용되는 Reliable 및 Unreliable 키워드가 의미하는 바는 무엇이며, 각각 어떤 종류의 데이터 전송에 적합한지 (예: 한 번이라도 놓치면 안 되는 중요 데이터 vs 빈번한 상태 업데이트) 예시와 함께 설명하시오.
+
+Replication Condition을 통한 최적화: DOREPLIFETIME_COND 또는 DOREPLIFETIME_ACTIVE_OVERRIDE와 같은 복제 조건(Replication Condition) 매크로를 사용하는 주된 이유는 무엇이며, 이를 통해 불필요한 네트워크 대역폭 사용을 어떻게 최적화할 수 있는지 구체적인 예시를 들어 설명하시오.
+
+네트워크 관련성(Network Relevancy): 언리얼 엔진에서 액터의 "네트워크 관련성(Network Relevancy)"은 무엇을 의미하며, IsNetRelevantFor() 함수와 NetUpdateFrequency 속성이 액터 복제에 어떻게 영향을 미치는지 설명하시오.
+
+Replication Graph의 역할과 장점: 언리얼 엔진의 Replication Graph는 무엇이며, 어떤 상황에서 기존의 액터 복제 방식 대신 Replication Graph를 사용하면 대규모 멀티플레이어 환경에서 복제 성능 및 네트워크 대역폭 사용을 크게 최적화할 수 있는지 설명하시오.
+
+RPC의 보안 및 서버 측 검증: 클라이언트에서 서버로 호출되는 Server RPC를 구현할 때, 치팅(Cheating)과 같은 보안 취약점을 방지하기 위해 서버 측에서 어떤 종류의 데이터 검증(Validation)을 반드시 수행해야 하는지 설명하시오.
+
+RPC 호출 시점 및 제약 사항: RPC를 액터의 생성자(Constructor)에서 직접 호출할 수 없는 이유와, RPC가 성공적으로 호출되고 실행되기 위한 액터의 네트워크 상태(예: 서버 권한 여부, 액터가 이미 복제되었는지)에 대한 제약 사항을 설명하시오.
+
+복제된 변수 콜백(OnRep_Notify): UPROPERTY(ReplicatedUsing=FunctionName) 매크로로 선언된 프로퍼티의 OnRep_Notify 함수가 언제 호출되는지 설명하고, 클라이언트에서 복제된 변수의 값이 변경되었을 때 특정 로직(예: 비주얼 업데이트, 사운드 재생, 애니메이션 변경)을 즉시 실행하는 데 어떻게 활용되는지 설명하시오.
