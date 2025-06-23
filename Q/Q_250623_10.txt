@@ -1,0 +1,19 @@
+네트워크 롤(Network Role)의 기본 개념: 언리얼 엔진에서 액터(Actor)가 가질 수 있는 주요 네트워크 롤(예: ROLE_Authority, ROLE_SimulatedProxy, ROLE_AutonomousProxy, ROLE_None)은 무엇이며, 각각의 롤이 클라이언트와 서버 환경에서 액터의 동작 및 권한에 어떤 영향을 미치는지 설명하시오.
+
+ROLE_Authority의 의미와 중요성: ROLE_Authority 롤이 왜 중요한지 설명하고, 이 롤을 가진 액터가 게임 상태를 변경하고 다른 클라이언트들에게 복제(Replication)하는 데 어떤 역할을 하는지 설명하시오.
+
+ROLE_AutonomousProxy와 ROLE_SimulatedProxy의 차이: ROLE_AutonomousProxy와 ROLE_SimulatedProxy 롤의 주된 차이점을 설명하고, 플레이어가 직접 제어하는 캐릭터(로컬 플레이어)와 다른 플레이어의 캐릭터가 각각 어떤 롤을 가지며 왜 그렇게 되는지 설명하시오.
+
+네트워크 권한(Network Authority)의 위임: 언리얼 엔진에서 액터의 네트워크 권한이 서버로부터 클라이언트로 위임(Possess)될 때 어떤 일이 발생하며, 이 과정에서 액터의 롤(Role)이 어떻게 변경되는지 설명하시오.
+
+RPC(Remote Procedure Call)와 네트워크 롤: Server RPC, Client RPC, NetMulticast RPC가 각각 어떤 네트워크 롤을 가진 액터에서 호출되고 실행될 수 있는지 설명하고, 각 RPC가 호출될 때 액터의 네트워크 롤이 어떻게 영향을 미치는지 설명하시오.
+
+GetLocalRole()과 GetRemoteRole(): 액터에서 GetLocalRole()과 GetRemoteRole() 함수를 사용하여 현재 액터의 네트워크 롤과 원격 액터의 롤을 확인하는 목적은 무엇이며, 이 정보가 게임 로직(예: 입력 처리, 상태 변경)을 분기하는 데 어떻게 활용되는지 설명하시오.
+
+네트워크 롤에 따른 로직 분기: 멀티플레이어 게임에서 특정 게임 로직(예: 물리 시뮬레이션, AI 행동, UI 업데이트)을 구현할 때, 액터의 네트워크 롤에 따라 코드를 다르게 실행해야 하는 이유와 구체적인 C++ 코드 예시를 들어 설명하시오.
+
+액터의 bReplicates 속성: 액터의 bReplicates 속성이 true로 설정되어야 하는 주된 이유와, 이 속성이 false일 경우 액터의 네트워크 롤 및 복제 동작에 어떤 영향을 미치는지 설명하시오.
+
+SetReplicates(true)와 SetReplicates(false)의 런타임 동작: 런타임에 액터의 SetReplicates() 함수를 호출하여 복제 상태를 변경할 때, 해당 액터의 네트워크 롤과 기존에 복제되던 프로퍼티들에 어떤 변화가 발생하는지 설명하시오.
+
+네트워크 롤과 상태 동기화의 복잡성: 복잡한 게임 시스템(예: 인벤토리, 스킬 쿨다운, 버프/디버프)을 구현할 때, 액터의 네트워크 롤과 권한을 고려하여 클라이언트와 서버 간에 상태를 어떻게 효율적이고 안전하게 동기화할 수 있는지 설계 원칙을 제시하시오.
