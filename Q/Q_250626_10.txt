@@ -1,0 +1,19 @@
+GAS의 핵심 구성 요소: 언리얼 엔진의 Gameplay Ability System (GAS)을 구성하는 네 가지 핵심 요소(UAbilitySystemComponent, UGameplayAbility, UGameplayEffect, UAttributeSet)는 무엇이며, 각각의 주요 역할과 이들이 어떻게 상호작용하여 캐릭터의 능력과 상태를 관리하는지 설명하시오.
+
+UGameplayAbility의 활성화 및 수명 주기: UGameplayAbility가 어떻게 활성화(Activate)되고, 활성화 이후 취소(Cancel) 또는 종료(End)될 때까지 그 수명 주기(Lifecycle) 동안 어떤 주요 단계(예: 비용/쿨다운 검사, 로직 실행, 태그 부여/제거)를 거치는지 설명하시오.
+
+UGameplayEffect의 역할과 적용 방식: UGameplayEffect는 무엇이며, 스탯 변경(Modifier), 태그 부여/제거, 버프/디버프 등 게임플레이 효과를 정의하고 UAbilitySystemComponent에 어떻게 적용되는지 설명하시오. Duration, Period, Stack과 같은 개념도 함께 설명하시오.
+
+UAttributeSet과 Attribute: UAttributeSet은 무엇이며, 캐릭터의 체력, 마나, 공격력 등 게임플레이 속성(Attribute)을 어떻게 정의하고 관리하는지 설명하시오. Attribute의 기본 값, 베이스 값, 최종 값의 개념과 Attribute가 변경될 때 발생하는 콜백(OnAttributeChanged)에 대해 설명하시오.
+
+Gameplay Tag의 활용: GAS에서 Gameplay Tag는 무엇이며, 어빌리티 활성화 조건, 게임플레이 효과 적용 조건, 캐릭터 상태 표현(예: 기절, 이동 불가), Input 처리 등에 어떻게 광범위하게 활용될 수 있는지 구체적인 예시와 함께 설명하시오.
+
+GameplayEffectExecutionCalculation의 필요성: GameplayEffectExecutionCalculation (또는 UGameplayEffectCustomApplicationRequirement)은 무엇이며, 복잡한 계산식(예: 방어력에 따른 최종 피해량 계산, 스킬 레벨에 따른 효과 강도)을 통해 GameplayEffect의 최종 효과를 결정하고 적용하는 데 어떻게 사용되는지 설명하시오.
+
+네트워크 예측(Prediction)의 중요성: GAS에서 클라이언트 측 네트워크 예측(Client-Side Prediction)이 왜 중요한지 설명하고, 어빌리티 활성화, Gameplay Effect 적용 등에서 예측이 어떻게 작동하여 네트워크 지연(Latency)을 숨기고 반응성을 높이는지 설명하시오. 예측 실패 시 어떻게 롤백(Rollback)되고 재보정(Correction)되는지도 간략히 설명하시오.
+
+어빌리티 비용(Cost) 및 쿨다운(Cooldown) 구현: UGameplayAbility에서 어빌리티 사용 비용(Cost)과 쿨다운(Cooldown)을 어떻게 정의하고 적용하는지 설명하시오. 특히 Cost는 UAttributeSet의 Attribute와, Cooldown은 Gameplay Tag와 어떻게 연동되어 처리되는지 설명하시오.
+
+GAS 디버깅 및 분석 툴: 언리얼 엔진에서 GAS와 관련된 문제를 디버깅하고 분석하기 위해 어떤 툴(예: showdebug abilitysystem 콘솔 명령어, GameplayEffect 디버거, Unreal Insights의 GAS 트레이스)을 활용할 수 있는지 설명하시오.
+
+GAS 컴포넌트의 네트워크 복제 전략: UAbilitySystemComponent와 그 하위의 GameplayEffectContainer, ActiveGameplayEffect 등이 멀티플레이어 환경에서 어떻게 복제(Replication)되며, 서버 권한(Authority)을 가진 액터와 프록시(Proxy) 액터 간에 일관된 게임 상태를 유지하기 위한 GAS의 복제 전략에 대해 설명하시오.
