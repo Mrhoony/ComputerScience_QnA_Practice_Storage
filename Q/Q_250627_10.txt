@@ -1,0 +1,23 @@
+C++의 **이동 시맨틱스(Move Semantics)**와 std::move 함수는 무엇이며, RVO(Return Value Optimization) 및 NRVO(Named Return Value Optimization)가 컴파일러에 의해 자동으로 적용되는 경우에도 std::move를 명시적으로 사용하는 것이 유리한 상황은 무엇인지 설명하시오.
+
+C++20에 도입된 **Concepts(컨셉)**는 무엇이며, 템플릿(Template)의 제약 조건(Constraints)을 더욱 명확하고 가독성 있게 정의함으로써 컴파일 타임 오류를 줄이고 템플릿 메타 프로그래밍을 개선하는 데 어떻게 기여하는지 설명하시오.
+
+PIMPL(Pointer to IMplementation) 관용구는 무엇이며, C++에서 헤더 파일 의존성을 줄여 컴파일 시간을 단축하고, 라이브러리의 바이너리 호환성을 유지하는 데 어떻게 활용되는지 설명하시오.
+
+
+
+**유한 상태 머신(Finite State Machine, FSM)**은 무엇이며, 게임에서 캐릭터의 행동(예: IDLE, WALK, ATTACK)이나 게임의 전반적인 상태(예: MainMenu, Gameplay, Pause)를 관리하는 데 어떻게 적용될 수 있는지 장단점과 함께 설명하시오.
+
+의존성 주입(Dependency Injection, DI) 원칙은 무엇이며, 소프트웨어 모듈 간의 결합도(Coupling)를 낮추고 테스트 용이성 및 유연성을 높이는 데 어떻게 기여하는지 게임 개발 맥락에서 설명하시오.
+
+**버퍼 오버플로우(Buffer Overflow)**와 **언더플로우(Underflow)**는 무엇이며, C++에서 이러한 메모리 관련 취약점(Vulnerability)이 발생할 수 있는 시나리오와 이를 방지하기 위한 안전한 코딩 습관 및 기법을 설명하시오.
+
+
+
+언리얼 엔진의 UObject 가비지 컬렉션(GC) 시스템은 참조(Reference) 그래프를 탐색하여 메모리를 관리합니다. TArray<UObject*>와 같이 UObject 포인터를 멤버 변수로 가질 때 GC가 올바르게 작동하도록 하기 위한 방법(예: UPROPERTY(), AddReferencedObjects())과 그렇지 않을 경우 발생할 수 있는 메모리 관련 문제를 설명하시오.
+
+언리얼 엔진의 렌더링 파이프라인에서 포스트 프로세스(Post-Process) 효과는 어떤 단계에서 적용되며, 커스텀 포스트 프로세스 효과(예: 블룸, 색 보정, 아웃라인)를 구현하기 위한 기본적인 접근 방식(예: Material Graph, Render Target 활용)에 대해 설명하시오.
+
+언리얼 엔진에서 슬레이트(Slate) UI 프레임워크는 UMG와 어떤 관계를 가지며, UMG가 제공하지 않는 저수준(Low-level)의 UI 커스터마이징이나 고성능/복잡한 에디터 툴을 개발할 때 슬레이트를 직접 사용하는 주된 이유와 장점을 설명하시오.
+
+언리얼 엔진에서 "틱(Tick)" 함수 사용 시 주의사항과 SetActorTickEnabled(false) 또는 PrimaryActorTick.bCanEverTick = false를 통한 최적화의 중요성을 설명하시오. 또한, 틱 외에 성능에 민감한 로직을 주기적으로 실행할 수 있는 대안적인 방법(예: Timer, Delegate, Custom Tick Function)을 제시하시오.
